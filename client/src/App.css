@@ -1,0 +1,16 @@
+#main{
+    background-image: url(bg.jpg);
+}
+
+div{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.todo.is-complete .Checkbox {
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+}
+.todo.is-complete  {
+	text-decoration: line-through;
+    
+}
